@@ -43,3 +43,38 @@ footer {
   padding: 1rem;
   background-color: #f0f0f0;
 }
+
+.pricing-section {
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #e0f7fa, #e1bee7);
+  text-align: center;
+}
+.pricing-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+.pricing-table th, .pricing-table td {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  font-size: 0.95rem;
+}
+.pricing-table th {
+  background: #006064;
+  color: white;
+}
+.pricing-table td {
+  background: white;
+}
+.pricing-table tr:nth-child(even) td {
+  background: #f1f8e9;
+}
+.pricing-table td:first-child {
+  text-align: left;
+  font-weight: bold;
+  background: #ede7f6;
+}
+.cta {
+  margin-top: 2rem;
+}
+
