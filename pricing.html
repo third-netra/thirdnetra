@@ -1,50 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pricing Plans - ThirdNetra</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThirdNetra Pricing</title>
+  <!-- Link your CSS here -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header>
-    <h1>ThirdNetra</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="pricing.html">Pricing</a>
-    </nav>
+    <!-- Your site’s nav/header -->
   </header>
 
-  <section class="pricing-section">
-    <h2>Choose the Plan That Fits You</h2>
-    <div class="pricing-table">
+  <main>
+    <section id="pricing" class="container">
+      <h1>Pricing Plans</h1>
       <table>
         <thead>
           <tr>
             <th>Features</th>
-            <th>Beginner<br><small>(&lt;2k Shipments)</small><br>₹3,999</th>
-            <th>Classic<br><small>(&lt;5k Shipments)</small><br>₹6,999</th>
-            <th>Pro<br><small>(&lt;10k Shipments)</small><br>₹11,999</th>
-            <th>Pro+<br><small>(Upto 50k Shipments)</small><br>₹25,999</th>
+            <th>Beginner (&lt;2k Shipments)</th>
+            <th>Classic (&lt;5k Shipments)</th>
+            <th>Pro (&lt;10k Shipments)</th>
+            <th>Pro+ (Upto 50k Shipments)</th>
           </tr>
         </thead>
         <tbody>
-          <!-- Inserted rows from CSV -->
-          <tr><td>Reconciliation: Invoice Reconciliation</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-          <tr><td>Reconciliation: Ledger Reconciliation</td><td>No</td><td>No</td><td>No</td><td>Yes</td></tr>
-          <tr><td>Reconciliation: COD Remittance Reconcilition</td><td>No</td><td>No</td><td>Yes</td><td>Yes</td></tr>
-          <tr><td>Reconciliation: LOST Shipment Reconciliation</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-          <!-- You can add more features similarly -->
+          <tr>
+            <td>Subscription Cost</td>
+            <td>3999</td>
+            <td>6999</td>
+            <td>11999</td>
+            <td>25999</td>
+          </tr>
+          <tr>
+            <td>Reconciliation: Invoice Reconciliation</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Reconciliation: Ledger Reconciliation</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Reconciliation: COD Remittance Reconcilition</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Reconciliation: LOST Shipment Reconciliation</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>KPI Report: Pending For Pickup</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>KPI Report: Courier/SAAS Level Distribution</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>KPI Report: First Attempt Success Rate</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>KPI Report: Reattempt Succes Rate</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>KPI Report: Delivery % (City, State, Zone Level)</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>KPI Report: Picked to Attempt</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>KPI Report: More Advance KPI Reports</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Analysis: CPS (Cost Per Shipment) [Courier/SAAS Level]</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Analysis: RPS (Revenue Per Shipment) [Courier/SAAS Level]</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Advance Analysis: High Selling SKU(s)</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Advance Analysis: Low Selling SKU(s)</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Advance Analysis: Highest Returned SKU(s)</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Advance Analysis: Highest Disliked SKU(s)</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Advance Analysis: Bad Address Filteration</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Advance Analysis: RTO W/O Attempts</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Advance Analysis: Untraceable/No Movement/SLA Breached</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Advance Analysis: Cancelled But Not Refunded</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Advance Analysis: P&amp;L Walkthrough</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Advance Analysis: Roadmap to Positive EBITDA</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Advance Analysis: Bad Pincodes Analysis</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Dispute Management: Pickup Delays</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Dispute Management: Delivery Delays</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Dispute Management: Weight Disputes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Dedicated Key Account Manager</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
         </tbody>
       </table>
-    </div>
-    <div class="cta">
-      <p>Need help choosing? <a href="mailto:sales@thirdnetra.com" class="btn">Request a Demo</a></p>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 ThirdNetra | Smarter Reconciliation, Faster Growth</p>
+    <!-- Your site’s footer -->
   </footer>
 </body>
 </html>
